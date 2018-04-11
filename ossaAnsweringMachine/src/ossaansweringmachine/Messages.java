@@ -10,13 +10,26 @@ package ossaansweringmachine;
  * @author kossa
  */
 import java.util.ArrayList;
+import java.util.List;
 
 public class Messages {
     
-    ArrayList<String> messages = new ArrayList<>();
+    private List<String> messages;
+    
+    public void msgArray() {
+        messages = new ArrayList<String>();
+    }
+    
+    public List<String> getMessages() {
+        return messages;
+    }
     
     public void delMsg() {
         // deletes messages from arraylist
+        // javaFX function here
+        
+        currentMsg();
+        
     }
     
     public void saveMsg(String msg) {
@@ -28,5 +41,13 @@ public class Messages {
     
     public void recMsg() {
         // will take input from caller
+    }
+    
+    public void currentMsg() {
+        // finds out what the current message being displayed
+        
+        
+        
+        
     }
 }

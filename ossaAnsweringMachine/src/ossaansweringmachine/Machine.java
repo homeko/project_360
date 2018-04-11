@@ -11,12 +11,22 @@ package ossaansweringmachine;
  */
 
 public class Machine {
+    
+    private Messages messages;
+    
     public void leaveMsg() {
         // this will go to recMsg() in messages
     }
     
+    @SuppressWarnings("empty-statement")
     public void playMsg() {
         // this needs to access 'messages' arraylist from Messages class
+        // counter to keep track of what message is being played
+        int i;
+        
+       // for (i = 0; i =< messages.size(); i++) {
+        
+        }
     }
     
     public void stopMsg() {
